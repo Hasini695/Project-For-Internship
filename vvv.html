@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasini Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            background-color: #F3E6F8; /* Lavender background */
+        }
+
+        header {
+            background-color: #7a4caf; /* Lavender header */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000; /* Ensure header is always on top */
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            margin-top: 80px; /* Offset for the fixed header */
+        }
+
+        .sidebar {
+            width: 20%;
+            background-color: #E6A9F2; /* Lavender sidebar */
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .sidebar a {
+            display: block;
+            color: #333;
+            text-decoration: none;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .sidebar a:hover {
+            background-color: #D5A3F4; /* Slightly darker lavender on hover */
+        }
+
+        .main-content {
+            width: 80%;
+            padding: 20px;
+            text-align: center; /* Center the text */
+        }
+
+        section {
+            padding: 40px 0;
+            text-align: center; /* Center text within sections */
+        }
+
+        section h2 {
+            margin-bottom: 20px;
+            color: #7a4caf; /* Lavender section heading */
+        }
+
+        footer {
+            background-color: #7a4caf; /* Lavender footer */
+            color: white;
+            text-align: center;
+            padding: 5px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form label {
+            margin-bottom: 5px;
+        }
+
+        form input, form textarea {
+            width: 80%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            background-color: #7a4caf; /* Lavender button */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        form button:hover {
+            background-color: #D5A3F4; /* Slightly darker lavender on hover */
+        }
+
+        img {
+            width: 50px; /* Updated width */
+            height: 290px; /* Updated height */
+            float: right;
+            border-color: black;
+            border-style: groove;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main-content">
+            <section id="about">
+                <h2>About Me</h2>
+                <hr style="height: 0.1in;background-color: #000000;">
+                <p style="font-family:'Times New Roman', Times, serif;font-size: 150%;"><i>This is Hasini, I am an aspiring Computer Science Engineer currently working towards a Bachelor's degree, with progressive experience writing code and designing solutions. Motivated to learn from senior engineers while sharing innovative ideas in an environment that values personal growth.
+                <br>Feel free to reach out to me at <b><a href="https://mail.google.com/mail/u/0/#inbox">hasinikallepalli@gmail.com</a> </b><br>Feel free to reach out to me for any opportunities or collaborations. I'm always excited to connect with like-minded individuals and explore new possibilities.</i></p>
+
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <hr style="height: 0.1in;background-color: #000000;">
+                <div class="project">
+                    <h3>HOTEL MANAGEMENT SYSTEM</h3>
+                    <p style="font-family: 'Times New Roman', Times, serif;font-size: 150%;"><i>A text-based application written in C++ language that assists in room booking and customer record management.</i></p>
+                </div>
+
+                <div class="project">
+                    <h3>PATIENT MANAGEMENT SYSTEM</h3>
+                    <p style="font-family: 'Times New Roman', Times, serif;font-size: 150%;"><i>This project is to help the hospital management store patient details sequentially, including the medical information.</i></p>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <hr style="height: 0.1in;background-color: #000000;">
+                <p style="font-family: 'Times New Roman', Times, serif;font-size: 150%;">
+                    <h4>C Language</h4>
+                    <h4>DBMS</h4>
+                    <h4>Web Technology</h4>
+                    <h4>Adept at motivating self and others.</h4>
+                </p>
+            </section>
+
+            <section id="achievements">
+                <h2>Achievements</h2>
+                <hr style="height: 0.1in;background-color: #000000;">
+                <p style="font-family: 'Times New Roman', Times, serif;font-size: 150%;"><i>I once participated in a flameless Hot Air Balloon Workshop in SRM. It taught me how powerful teamwork can be, we created an ideal design and succeeded in making an adequately aerodynamic hot air balloon. It soared the highest out of all the balloons that flew that day. Those flying colors reminded me how capable I can be when I learn alongside enthusiastic people like me who love a subject as much as I do.</i></p>
+            </section>
+
+            <section id="contact">
+                <h2>To Contact Me:</h2>
+                <hr style="height: 0.1in;background-color: #000000;">
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p><pre>Mail:<a href="https://mail.google.com/mail/u/0/#inbox">hasinikallepalli@gmail.com</a> <a href="https://www.linkedin.com/feed/">LinkedIn</a>  Phone no: 7385363226</p></pre>
+    </footer>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Message sent!');
+        });
+    </script>
+</body>
+</html>
